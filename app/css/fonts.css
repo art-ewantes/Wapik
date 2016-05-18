@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "ProximaNovaBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewayBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewayRegular";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RalewaySemiBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Monsterat-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Monsterat-Regular/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Monsterat-Regular/Montserrat-Regular.woff") format("woff"), url("../fonts/Monsterat-Regular/Montserrat-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Monsterat-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Monsterat-Light/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Monsterat-Light/Montserrat-Light.woff") format("woff"), url("../fonts/Monsterat-Light/Montserrat-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "MerriweatherLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MerriweatherLight/MerriweatherLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MerriweatherLight/MerriweatherLight.woff") format("woff"), url("../fonts/MerriweatherLight/MerriweatherLight.ttf") format("truetype"); }

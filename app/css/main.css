@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.main_head {
+  width: 100%;
+  min-height: 650px;
+  background-image: url(../img/bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.menu_head {
+  padding: 30px 0;
+  border-bottom: 1px solid #679090; }
+
+.menu_head_left > span {
+  display: inline-block;
+  padding-right: 20px;
+  font-family: "ProximaNovaBold";
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  vertical-align: middle; }
+
+.phone {
+  display: inline-block;
+  padding-left: 20px;
+  border-left: 1px solid #679090;
+  vertical-align: middle; }
+  .phone span {
+    font-family: "Monsterat-Regular";
+    font-size: 13px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700; }
+  .phone i {
+    font-size: 15px;
+    color: #bdc7c7;
+    display: inline-block;
+    vertical-align: middle; }
+
+.nav_menu {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle; }
+  .nav_menu a {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    color: #c6cccc; }
+    .nav_menu a:last-child {
+      background-color: #6b8281;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
+      color: #fff; }
+  .nav_menu li {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: "Monsterat-Regular";
+    line-height: 40px;
+    text-transform: uppercase; }
+    .nav_menu li:hover {
+      color: #fff; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .silver_tatosh h1 {
+    font-size: 4.45em; }
+  #fest h2 {
+    text-align: center; }
+  #fest {
+    padding-bottom: 50px; }
+  .link li {
+    padding: 41px 50px; }
+  .fixed_col {
+    float: left;
+    width: 100%;
+    border: none; }
+  .history_cont_two .container_text {
+    border: none; }
+  .container_text .cont_text {
+    margin-right: 0;
+    margin-left: 0; }
+  .bg_hidden {
+    background-image: none; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .logo {
+    text-align: center; }
+  .main_header {
+    padding-top: 2%; }
+  #fest h2 {
+    text-align: center; }
+  .link li {
+    padding: 41px 28px; }
+  .history_container .left {
+    border: none;
+    text-align: center;
+    padding-right: 0; }
+  .history_container .right {
+    text-align: center;
+    padding-left: 0; }
+  .left .history_item p {
+    margin-top: 0; }
+  .fixed_col {
+    float: left;
+    width: 100%;
+    border: none; }
+  .history_cont_two .container_text {
+    border: none; }
+  .container_text .cont_text {
+    margin-right: 0;
+    margin-left: 0; }
+  .port_item {
+    opacity: 1;
+    padding: 25px 0; }
+  .bg_hidden {
+    background-image: none; }
+  .owl-controls .owl-nav {
+    display: none; }
+  .footer_right_top {
+    text-align: center; }
+  .footer_right_cont {
+    text-align: center; }
+  .footer_left {
+    text-align: center; }
+  .footer_left table {
+    margin: 0 auto; }
+  header .silver_tatosh h1 {
+    font-size: 29.21px; }
+  header .logo img {
+    height: 137px; }
+  header {
+    height: 166px; }
+  header .fa-home {
+    font-size: 2.5em; }
+  .content.all_news .last_date {
+    padding-top: 0%; }
+  .content.all_news h2 {
+    font-size: 2.5em; }
+  .content.all_news .cell p {
+    font-size: 0.85em; }
+  .content.all_news .last_news .news_title {
+    font-size: 18px; }
+  .content.all_news .mini_article p {
+    font-size: 11px;
+    max-height: 67px;
+    padding-top: 17px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .silver_tatosh h1 {
+    font-size: 4em; }
+  .top_mnu ul {
+    margin-top: 80px; }
+  #fest p {
+    font-size: 1.6em; }
+  #fest h2 {
+    font-size: 1.8em; }
+  .link li {
+    padding: 41px 20px; }
+  .container_text .cont_text {
+    font-size: 1.275em; }
+  .memory a {
+    font-size: 0.7375em; }
+  .container_img .cont_icon span {
+    font-size: 3.25em; }
+  #program_tatosh table tr {
+    font-size: 1.2375em; }
+  .table_bottom ul li {
+    font-size: 1.2375em; }
+  .form-group input, .form-group textarea {
+    min-width: 600px; }
+  header .silver_tatosh h1 {
+    font-size: 22.21px; }
+  header {
+    height: 143px; }
+  .content.all_news h2 {
+    font-size: 1.5em; }
+  .content.all_news .last_news .news_title {
+    position: relative;
+    left: 0;
+    bottom: 0; }
+  .content.all_news .cont_for_news {
+    margin-top: 33px; }
+  .content.all_news .mini_title h4 {
+    font-size: 18px; }
+  .num_ul li {
+    margin-left: 2%; }
+  .content.one_news h3 {
+    font-size: 1.5em;
+    width: 100%; } }
+
+@media only screen and (max-width: 680px) {
+  .link li {
+    padding: 41px 48px; }
+  .history_header p {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%; }
+  #home_tatosh h2 {
+    font-size: 2.0875em; }
+  #home_tatosh p {
+    font-size: 1.575em; }
+  #shedule_fastival h2 {
+    font-size: 2.0875em; }
+  #tatosh_partners h2 {
+    font-size: 2.0875em; }
+  #program_tatosh h2 {
+    font-size: 2.0875em; }
+  #li_tatosh h2 {
+    font-size: 2.0875em; }
+  #program_tatosh table tr {
+    font-size: 1.2375em; }
+  .table_bottom ul li {
+    font-size: 1.2375em; }
+  .tickets_right {
+    margin-top: 50px; }
+  .tickets_left {
+    margin-top: 50px; }
+  .owl-controls .owl-dots, .owl-controls .owl-pagination {
+    margin-bottom: -20px; }
+  #mail_tatosh h2 {
+    font-size: 3.0625em; }
+  .form-group input, .form-group textarea {
+    min-width: 450px; }
+  .main_form button {
+    font-size: 1em;
+    padding: 25px 43px; } }
+
+@media only screen and (max-width: 520px) {
+  .silver_tatosh h1 {
+    font-size: 3em; }
+  .container_text .cont_text {
+    font-size: 1.175em; }
+  .gallery_btn a {
+    padding: 25px 50px;
+    font-size: 0.8em;
+    text-transform: uppercase; }
+  #home_tatosh p {
+    font-size: 1.475em; }
+  #shedule_fastival h2 {
+    font-size: 1.9875em; }
+  #tatosh_partners h2 {
+    font-size: 1.9875em; }
+  .download span {
+    font-size: 1.675em; }
+  .footer_left span {
+    font-size: 1.05em; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .silver_tatosh h1 {
+    font-size: 2.8em; }
+  #fest p {
+    font-size: 1.3em; }
+  .link li {
+    padding: 41px 30px; }
+  .container_img .cont_icon span {
+    font-size: 3.05em; }
+  #home_tatosh p {
+    font-size: 1.375em; }
+  #shedule_fastival h2 {
+    font-size: 1.7875em; }
+  #li_tatosh h2 {
+    font-size: 1.7875em; }
+  #tatosh_partners h2 {
+    font-size: 1.7875em; }
+  #program_tatosh table tr {
+    font-size: 1.1375em; }
+  .table_bottom ul li {
+    font-size: 1.1375em; }
+  .form-group input, .form-group textarea {
+    min-width: 350px; } }
+
+@media only screen and (max-width: 420px) {
+  .silver_tatosh h1 {
+    font-size: 2.4em; }
+  .main_header {
+    padding-top: 10%; }
+  .buy-tickets {
+    margin-top: 55px; }
+  .link li {
+    padding: 41px 44px; }
+  #home_tatosh p {
+    font-size: 1.375em; }
+  .main_form button {
+    font-size: 1em;
+    padding: 25px 43px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 380px) {
+  .silver_tatosh h1 {
+    font-size: 2.2em; }
+  .main_header {
+    padding-top: 10%; }
+  .buy-tickets {
+    margin-top: 55px; }
+  #home_tatosh p {
+    font-size: 1.275em; }
+  .buttom_a {
+    font-size: 0.675em; }
+  .form-group input, .form-group textarea {
+    min-width: 300px; } }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
